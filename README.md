@@ -1,5 +1,5 @@
 # Proxy Checker
-A checker designed in Python 3 for checking proxy.
+A checker designed in Python 3.7 for checking proxy.
 ## Description
 This script takes a proxy as string input and tries to get data such as: 
 - type (HTTP, SOCKS4, SOCKS5)
