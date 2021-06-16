@@ -23,7 +23,7 @@ checker.check_proxy('<ip>:<port>')
 if proxy is valid, will be return dictionary
 ```json
 {
-  "status": 1,
+  "status": True,
   "type": ["socks4", "socks5"],
   "time_response": "0.545",
   "anonymity": "Anonymous",
@@ -35,7 +35,7 @@ if proxy is valid, will be return dictionary
 if proxy is not valid
 ```json
 {
-  "status": 0
+  "status": False
 }
 ```
 ## License
