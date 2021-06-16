@@ -18,10 +18,11 @@ pip install proxy-checking
 from proxy_checking import ProxyChecker
 
 checker = ProxyChecker()
-checker.check_proxy('<ip>:<port>')
+r = checker.check_proxy('<ip>:<port>')
+print(r)
 ```
 if proxy is valid, will be return dictionary
-```json
+```
 {
   "status": True,
   "type": ["socks4", "socks5"],
@@ -33,7 +34,7 @@ if proxy is valid, will be return dictionary
 }
 ```
 if proxy is not valid
-```json
+```
 {
   "status": False
 }
