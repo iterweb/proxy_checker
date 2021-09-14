@@ -77,17 +77,17 @@ class ProxyChecker:
         if resp['status'] == True:
             result = {}
             geo = self.get_geo(ip[0])
-            goe_info = geo.json()
+            geo_info = geo.json()
             result['status'] = resp['status']
             result['type'] = resp['type']
             result['time_response'] = resp['time_response']
             result['anonymity'] = resp['anonymity']
-            result['country'] = goe_info['country']
-            result['city'] = goe_info['city']
+            result['country'] = geo_info['country']
+            result['city'] = geo_info['city']
             try:
-                result['country_code'] = goe_info['country_code']
+                result['country_code'] = geo_info['country_code']
             except:
-                result['country_code'] = goe_info['countryCode']
+                result['country_code'] = geo_info['countryCode']
 
             return result
 
