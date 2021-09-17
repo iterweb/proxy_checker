@@ -1,6 +1,6 @@
 # Proxy Checker
 [![Downloads](https://pepy.tech/badge/proxy-checking)](https://pepy.tech/project/proxy-checking)<br>A checker designed in Python 3.7 for checking proxy.<br>
-If you need proxies, you can use this script [Proxy Grabber](https://github.com/pro100git/proxy_grabber)
+If you need proxies, you can use this script [Proxy Grabber](https://github.com/iterweb/proxy_grabber)
 ## Description
 This script takes a proxy as string input and tries to get data such as: 
 - type (HTTP, SOCKS4, SOCKS5)
