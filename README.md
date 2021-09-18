@@ -14,7 +14,6 @@ This script takes a proxy as string input and tries to get data such as:
 pip install proxy-checking
 ```
 ## Usage
-
 ```python3
 from proxy_checking import ProxyChecker
 
@@ -40,5 +39,7 @@ if proxy is not valid
   "status": False
 }
 ```
+## Donate
+If you want, you can [support](https://destream.net/live/iterweb/donate) me!
 ## License
 [MIT](LICENSE.md)
