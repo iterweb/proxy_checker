@@ -39,7 +39,5 @@ if proxy is not valid
   "status": False
 }
 ```
-## Donate
-If you want, you can [support](https://destream.net/live/iterweb/donate) me!
 ## License
 [MIT](LICENSE.md)
